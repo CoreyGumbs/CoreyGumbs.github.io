@@ -1,0 +1,164 @@
+
+
+/*Navigation Bar*/
+nav{
+	width: 100%;
+	background-color: #fff;
+
+}
+.navbar-nav{
+	margin-right: 50px;
+	display: inline-block;
+}
+
+.navbar-nav>li{
+	display: inline-block;
+	font-family: 'Cabin', sans-serif;
+}
+
+.navbar-nav a{
+	margin-right: 10px;
+	color: #999;
+}
+
+.navbar-nav a:hover{
+	color: #2AACFF;
+}
+
+/*Main Heading*/
+#intro-header{
+	width: 100%;
+	margin: 50px 0;
+	padding: 0;
+}
+#intro-header h1{
+	width: 100%;
+	font-size: 15em;
+	font-family: 'Anton', sans-serif;
+}
+#intro-header h2{
+	width: 100%;
+	margin: 20px 0;
+	font-size: 3em;
+	font-family: 'Anton', sans-serif;
+	color:  #2AACFF;
+}
+
+/* section headers*/
+.section-header{
+	width: 100%;
+	margin: 50px 0 20px 0;
+	padding: 0;
+}
+
+.section-header h3{
+	font-family: 'Francois One', sans-serif;
+	font-size: 2em;
+	color: #555;
+}
+
+/*sections*/
+.box{
+	margin-bottom: 50px;
+	padding: 0;
+	border: 0px solid green;
+}
+
+/*About Me*/
+.profile-img{
+	width: 250px;
+	height: 300px;
+	border:  0px solid #2AACFF;
+}
+
+.text{
+	margin-left: 20px;
+	padding: 0;
+}
+
+/*stack*/
+.logo{
+	width: 125px;
+	height: 125px;
+	display: block;
+	border-radius: 5%;
+}
+
+.overlay{
+	position: relative;
+	top: -125px;
+	left: 0px;
+	right: 0;
+	width: 125px;
+	height: 125px;
+	transition:  .5s ease;
+	background-color: #2AACFF;
+	border-radius: 5%;
+	opacity: 0;
+}
+
+.logo-transition:hover .overlay{
+	opacity: 1;
+}
+
+.overlay-txt{
+	position:  relative;
+	top: 50px;
+	font-size: 1.2em;
+ 	-ms-transform: translate(-50%, -50%);
+ 	text-align: center;
+ 	color: #fff;
+}
+
+#stack-box{
+	height: 125px;
+	margin-bottom: 50px;
+}
+
+/*education*/
+
+.school-logo{
+	width: 75px;
+	height: 75px;
+}
+
+.school h4{
+	font-size: 2em;
+	color: #333;
+}
+
+/*portfolio*/
+
+.portfolio-img{
+	width:  150px;
+	height:  150px;
+}
+
+.portfolio-display{
+	margin-bottom: 100px;
+}
+
+/*contact*/
+.contact-img{
+	width: 30px;
+	height: 30px;
+}
+
+.contact-logos{
+	width: 100px;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+}
+
+.contact-box>li{
+	display: inline-block;
+}
+
+/*footer*/
+.footer{
+	width: 100%;
+	height: 250px;
+	margin-top: 100px;
+	background-color: #000;
+}
