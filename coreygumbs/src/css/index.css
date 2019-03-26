@@ -303,3 +303,24 @@ template {
 [hidden] {
   display: none;
 }
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid black;
+}
+.nav-bar .nav-list {
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: space-between;
+  list-style-type: none;
+  border: 1px solid red;
+}
+.nav-bar .nav-list .nav-link {
+  border: 1px solid blue;
+}
+.jumbtron h1 {
+  font-size: 150px;
+}

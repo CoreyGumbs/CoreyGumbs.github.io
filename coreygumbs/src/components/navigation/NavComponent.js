@@ -3,21 +3,21 @@ import React from 'react';
 const NavComponent = () => {
     return(
         <nav className="nav-bar">
-           <ul>
-               <li>
-                   <a href="#">Home</a>
+           <ul className="nav-list">
+               <li className="nav-link">
+                   Home
                 </li>
-               <li>
-                   <a href="#">About</a>
+               <li className="nav-link">
+                   About
                 </li>
-               <li>
-                   <a href="#">Portfolio</a>
+               <li className="nav-link">
+                   Portofolio
                 </li>
-               <li>
-                   <a href="#">Resume</a>
+               <li className="nav-link">
+                   Resume
                 </li>
-               <li>
-                   <a href="#">Contact</a>
+               <li className="nav-link">
+                   Contact
                 </li>
            </ul>
         </nav>
