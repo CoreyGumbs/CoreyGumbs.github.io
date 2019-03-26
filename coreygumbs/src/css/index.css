@@ -315,11 +315,14 @@ template {
   display: flex;
   flex-direction: row nowrap;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
   border: 1px solid red;
 }
 .nav-bar .nav-list .nav-link {
   border: 1px solid blue;
+  padding: 30px;
 }
 .jumbtron h1 {
   font-size: 150px;
