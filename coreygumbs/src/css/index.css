@@ -18,6 +18,7 @@ html {
    */
 body {
   margin: 0;
+  font-family: 'Cabin', sans-serif;
 }
 /**
    * Render the `main` element consistently in IE.
@@ -306,23 +307,29 @@ template {
 .nav-bar {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  border: 1px solid black;
+  transition-property: opacity;
+  transition-duration: 4s;
+  transition-delay: 2s;
 }
 .nav-bar .nav-list {
   display: flex;
   flex-direction: row nowrap;
   justify-content: space-between;
-  margin: 0;
+  margin: 0 20px;
   padding: 0;
   list-style-type: none;
-  border: 1px solid red;
 }
 .nav-bar .nav-list .nav-link {
-  border: 1px solid blue;
-  padding: 30px;
+  margin: 0;
+  padding: 10px 20px;
+}
+.nav-bar .nav-list .nav-link:hover {
+  background-color: #eee;
+  color: #2AACFF;
 }
 .jumbtron h1 {
   font-size: 150px;
